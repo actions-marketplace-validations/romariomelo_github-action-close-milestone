@@ -1,0 +1,15 @@
+name: 'Close Milestone'
+description: 'Close a milestone with the given title'
+branding:
+  icon: 'check-circle'
+  color: 'orange'
+inputs:
+  title:
+    description: 'The title of the milestone'
+    required: true
+outputs:
+  number:
+    description: 'The number of the recently closed milestone'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
