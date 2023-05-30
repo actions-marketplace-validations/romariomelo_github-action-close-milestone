@@ -1,1 +1,1 @@
-# github-action-close-milestone
+# Close a milestone with the given title
