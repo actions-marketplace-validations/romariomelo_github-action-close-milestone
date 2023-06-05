@@ -1,5 +1,8 @@
-name: 'Close Milestone'
+name: 'Close a milestone by title'
 description: 'Close a milestone with the given title'
+branding:
+  icon: 'check-square'
+  color: 'gray-dark'
 inputs:
   title:
     description: 'The title of the milestone'
