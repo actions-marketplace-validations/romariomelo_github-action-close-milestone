@@ -38,4 +38,4 @@ jobs:
         run: echo "The closed milestone is number ${{ steps.close_milestone.outputs.number }}"
 ```
 
-In this example, the workflow is triggered on a push to the **main** branch. The **Close Milestone** action is used to close a milestone with the title "Version 1.0". The number of the closed milestone is then retrieved from the action's output, and it is printed as a message in the console.
+In this example, the workflow is triggered on a push to the **main** branch. The **Close Milestone** action is used to close a milestone with the title "v1.0". The number of the closed milestone is then retrieved from the action's output, and it is printed as a message in the console.
